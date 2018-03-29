@@ -10,12 +10,12 @@ namespace ch3_과제2
     {
         static void Main(string[] args)
         {
-            int month;
+            int month;      //달을 입력받을 변수 선언
 
             Console.Write("몇 월 인가요? ");
-            month = int.Parse(Console.ReadLine());
+            month = int.Parse(Console.ReadLine());      //몇 월 인지 입력 받기
 
-            switch (month)
+            switch (month)  //입력받은 월에 따른 계절 출력
             {
                 case 3:
                 case 4:

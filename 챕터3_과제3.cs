@@ -11,9 +11,9 @@ namespace ch3_과제3
         static void Main(string[] args)
         {
             Console.Write("학년을 입력하세요: ");
-            int level = int.Parse(Console.ReadLine());
+            int level = int.Parse(Console.ReadLine());      //레벨을 입력 받음
 
-            switch (level)
+            switch (level)      //레벨에 따른 수강해야하는 전공 학점 출력
             {
                 case 1:
                     Console.WriteLine("수강해야 하는 전공 학점: 12학점");

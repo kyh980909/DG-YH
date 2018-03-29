@@ -10,12 +10,12 @@ namespace ch3_과제1
     {
         static void Main(string[] args)
         {
-            int year; //사용자에게 년도 입력 받을 변수
+            int year; //사용자에게 연도 입력 받을 변수
 
-            Console.Write("생년을 입력하세요: ");
-            year = int.Parse(Console.ReadLine());
+            Console.Write("태어난 연도를 입력하세요: ");
+            year = int.Parse(Console.ReadLine());   //사용자에게 연도를 입력받음
 
-            switch (year % 12)
+            switch (year % 12)  //입력받은 연도에 따른 띠 출력
             {
                 case 0:
                     Console.WriteLine("원숭이띠 입니다.");
