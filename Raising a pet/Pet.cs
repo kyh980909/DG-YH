@@ -34,7 +34,7 @@ namespace Raising_a_pet
 
         public void Board()                     // Board메서드 happiness를 5 감소 시킴 happiness가 0보다 작아지면 happiness에 0을 대입해서 최소범위 지정
         {
-            happiness -= 5;
+            happiness -= 1;
             if (happiness < 0)
                 happiness = 0;
         }

@@ -68,7 +68,7 @@
             // PetTimer
             // 
             this.PetTimer.Enabled = true;
-            this.PetTimer.Interval = 5000;
+            this.PetTimer.Interval = 1000;
             this.PetTimer.Tick += new System.EventHandler(this.PetTimer_Tick);
             // 
             // PresentHappiness
