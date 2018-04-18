@@ -37,6 +37,7 @@ namespace Raising_a_pet
         private void PetTimer_Tick(object sender, EventArgs e)
         {
             MyPet.Board();
+            PetScreen.Text = MyPet.Express();
             PresentHappiness.Text = MyPet.ExpressHappiness();
         }
     }
